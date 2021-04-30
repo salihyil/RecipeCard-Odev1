@@ -12,7 +12,7 @@ function App() {
       "Bu kremsi ve baharatlı avokado sosu, günlük taco'larınızı hazırlamak için harika seçeneklerden biri. Geleneksel olarak flautas veya taquitos ile servis edilir, ancak bazı vegan enchiladalara da harika bir katkı sağlar.",
   };
 
-  const likeCount = 193;
+  //const likeCount = 193;
   const isLiked = false;
 
   return (
@@ -20,7 +20,13 @@ function App() {
       <header className="App-header">
         <Card
           /* prop ismi = { değişken } */
-          author={recipeAuthor}
+          author = {recipeAuthor}
+          recipeTitle = {recipeItem.title}
+          recipeDate =  {recipeItem.date}
+          recipeDescription = {recipeItem.description}
+          //count = {likeCount}
+          liked = {isLiked}
+          recipeImage = {recipeItem.image}
         />
       </header>
     </div>

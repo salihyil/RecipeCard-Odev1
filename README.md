@@ -1,3 +1,7 @@
+# Recipe Card Son Hal Gİf
+<p align="center">
+  <img src="https://media.giphy.com/media/J1pjPcuqo1gXDCheCH/giphy.gif" alt="Recipe Card"/>
+</p>
 # Recipe Card
 
 Bu projede bir yemek tarifi web sitesindeki her bir yemek için görüntülenecek kartı oluşturuyoruz. Projedeki Card Componenti bir yemek tarifinin detaylarını, yazarını, beğeni sayısını ve kullanıcın tarifi beğenip beğenmediğine dair birtakım bilgileri gösteriyor.
